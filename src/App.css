@@ -1,0 +1,449 @@
+.header-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.left-align {
+  text-align: left;
+  padding-right: 40px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.right-align {
+  text-align: center;
+  padding: 40px;
+}
+
+.align-header {
+  /* justify-content: center; */
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.header-text {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 18.5px;
+  text-decoration: none;
+  padding-right: 52px;
+  /* line-height: 5px; */
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  background-color: white;
+
+}
+
+.header-text:hover {
+  color: green;
+}
+
+
+
+.header-left {
+  text-align: right;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  padding: 0px 10px 0 10px;
+}
+
+
+
+.Container {
+  max-width: 100%;
+  text-align: center;
+  padding-right: 35px;
+  padding-left: 35px;
+
+}
+
+.Container-inline-flex {
+  display: inline-flex;
+  flex-basis: content;
+  align-content: center;
+  align-items: center;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-bottom: 100px;
+
+  max-width: 100%;
+}
+
+.Container-flex-wrap {
+  flex-wrap: nowrap;
+}
+
+.Container-inline2-flex {
+  display: inline-flex;
+  flex-basis: content;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-bottom: 100px;
+
+  max-width: 100%;
+}
+
+.figure {
+  margin: 0px;
+
+}
+
+.Container-inline-flex-nospace {
+  display: inline-flex;
+  flex-basis: content;
+  align-content: center;
+  align-items: center;
+}
+
+.Container-center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container-direction-flex {
+  flex-direction: column;
+
+}
+
+.Container-align-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.Container-flex {
+  display: flex;
+}
+
+.Container-box {
+  padding: 10px;
+  margin: 10px;
+}
+
+.Container-box2 {
+  text-align: center;
+
+}
+
+.bullet {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin: 0px;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.title-point {
+  font-size: 45px;
+  text-transform: capitalize;
+  text-align: left;
+  padding: 0px;
+  line-height: 55px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.title2-point {
+  font-size: 32px;
+  text-transform: capitalize;
+  text-align: left;
+  padding: 0px;
+  line-height: 55px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.des-text {
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+  color: #3A3E42;
+  text-align: left;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.des-text-footer {
+  font-family: Rubik, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: left;
+  line-height: 5px;
+  line-height: 35px;
+}
+
+.des-text-copyright {
+  font-size: 20px;
+  font-family: rubik, sans-serif;
+}
+
+.des2-text {
+  color: #1E2428;
+  font-weight: 500;
+  line-height: 1.6em;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.logo {
+  width: 1024px;
+  height: 1024px;
+  position: relative;
+  margin: 15px;
+  padding: 15px;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 201px;
+}
+
+.align-img {
+  padding: 25px;
+}
+
+.logo-main1 {
+  height: 500px;
+  max-width: 100%;
+  position: relative;
+  vertical-align: middle;
+}
+
+.logo-main2 {
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  vertical-align: middle;
+}
+
+.logo-main3 {
+  height: 500px;
+  max-width: 100%;
+  position: relative;
+  vertical-align: right;
+}
+
+.gallery-logo {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  max-width: 25%;
+}
+
+.gallery-item {
+  height: 35px;
+  width: 35px;
+  padding-right: 10px;
+
+}
+
+.Container-gallery {
+  padding: 5px;
+}
+
+.als-custom-logo {
+  display: inline-flex;
+  align-items: left;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  max-width: 400px;
+}
+
+.als-custom-logo2 {
+  display: inline-flex;
+  align-items: left;
+  max-width: 400px;
+  padding-bottom: 10px;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.justify-space-center {
+  display: flex;
+  justify-content: center;
+}
+
+
+.height-width {
+  height: 100px;
+  width: 750px;
+}
+
+.padding {
+  padding-right: 130px;
+}
+
+.padding-both {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.padding-left {
+  padding-left: 50px;
+}
+
+.padding-align {
+
+  padding-left: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.padding-10 {
+  padding: 10px;
+
+}
+
+.padding-2 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.padding-3 {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 22px;
+
+}
+
+.padding-4 {
+  padding-right: 10px;
+
+}
+
+.margin {
+  margin-left: 64.5px;
+  margin-right: 64.5px;
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
+}
+
+.margin-both {
+  margin-left: 104.5px;
+  margin-right: 104.5px;
+}
+
+.Button {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 24px;
+  padding-top: 14px;
+  padding-right: 30px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.space {
+  padding: 5px;
+}
+
+.form-text {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  padding: 0.4em;
+  border-color: #848484;
+  font-family: "Rubik", sans-serif;
+
+}
+
+.form-text-width {
+  max-width: 100%;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  border-color: #000000;
+  border-style: solid;
+  box-shadow: none;
+
+
+}
+
+
+.black {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+}
+
+li::marker {
+  color: rgb(196, 178, 178);
+  font-size: 20px;
+  margin: 0px;
+  list-style-position: outside;
+
+}
+
+color {
+  color: #008000;
+}
+
+::selection {
+  color: white;
+  background: green;
+
+}
+
+.circle {
+  border-radius: 50px;
+  color: #000;
+  font-size: 10px;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+}
