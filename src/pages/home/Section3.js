@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import CaseStudy from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/Case-study-1024x545.png";
+import CaseStudy from "../../img/Case-study-1024x545.png";
 import { useNavigate } from "react-router-dom";
 
 function Section3() {

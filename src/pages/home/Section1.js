@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import logo1 from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/Main-Image-1-1-1024x1024.png";
+import logo1 from "../../img/Main-Image-1-1-1024x1024.png";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useNavigate } from "react-router-dom";

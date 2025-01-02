@@ -1,21 +1,21 @@
 import React from "react";
 import { Col, Container, Figure, Row } from "react-bootstrap";
-import Android from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/android.png";
-import AWS from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/aws.png";
-import Flutter from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/flutter.png";
-import GoogleCloud from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/googlecloud.png";
-import Wordpress from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/wordpress.png";
-import Angular from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/angular.png";
-import CSS from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/css.png";
-import HTML from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/html.png";
-import Javascript1 from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/javascript1.png";
-import Javascript2 from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/javascript2.png";
-import react from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/react.png";
-import Vue from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/vue.png";
-import Apple from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/apple.png";
-import MangoDB from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/mangoDB.png";
-import PostgreSQL from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/postgreSQL.png";
-import Python from "/Users/shrey/OneDrive/Desktop/Basic/shreyansh_codeedoc-refactor/src/img/uploads/python.png";
+import Android from "../../img/uploads/android.png";
+import AWS from "../../img/uploads/aws.png";
+import Flutter from "../../img/uploads/flutter.png";
+import GoogleCloud from "../../img/uploads/googlecloud.png";
+import Wordpress from "../../img/uploads/wordpress.png";
+import Angular from "../../img/uploads/angular.png";
+import CSS from "../../img/uploads/css.png";
+import HTML from "../../img/uploads/html.png";
+import Javascript1 from "../../img/uploads/javascript1.png";
+import Javascript2 from "../../img/uploads/javascript2.png";
+import react from "../../img/uploads/react.png";
+import Vue from "../../img/uploads/vue.png";
+import Apple from "../../img/uploads/apple.png";
+import MangoDB from "../../img/uploads/mangoDB.png";
+import PostgreSQL from "../../img/uploads/postgreSQL.png";
+import Python from "../../img/uploads/python.png";
 
 function Section2() {
   return (
