@@ -1,37 +1,26 @@
-import { Button, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import "./App.css";
 import logo from "./img/Black-Codeedoc-Transparant-201x74.png";
 
 function Header() {
   const navigate = useNavigate();
 
   return (
-    <div className="App">
-      <Container fluid>
-        <div className="Container">
-          <div className="Container-flex-space-between,">
-            <Row>
-              <div className="Container-flex, justify-space-between ">
-                <a href="/">
-                  <img src={logo} className="als-custom-logo" alt="logo" />
-                </a>
-
-                <div>
-                  <Button
-                    className="header-text"
-                    onClick={() => navigate("/consultation ")}
-                  >
-                    Free consultation
-                  </Button>
-                </div>
-              </div>
-            </Row>
-          </div>
+    <header className="bg-white shadow-md py-4">
+      <div className="container mx-auto px-4 flex items-center justify-between">
+        <a href="/" className="flex-shrink-0">
+          <img src={logo} alt="logo" className="h-10 w-auto object-contain" />
+        </a>
+        <div>
+          <button
+            className="bg-black text-white py-2 px-4 rounded-md shadow hover:bg-[#008000] transition"
+            onClick={() => navigate("/consultation")}
+          >
+            Free Consultation
+          </button>
         </div>
-      </Container>
-    </div>
+      </div>
+    </header>
   );
-
 }
+
 export default Header;

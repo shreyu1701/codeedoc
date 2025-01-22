@@ -3,33 +3,37 @@ import React from "react";
 function Feedback() {
   const Container = ({ title }) => {
     return (
-      <div className="flex-1 flex-row">
-        <div class="p-1">
-          <div class="w-full p-1 font-rubik text-left">{title}</div>
-          <input
-            class="w-full p-1  border bg-white text-black border-[#848484]"
-            placeholder={title}
-          ></input>
-        </div>
+      <div className="flex flex-col w-full px-2">
+        <label className="block text-sm font-medium text-gray-700">
+          {title}
+        </label>
+        <input
+          className="mt-1 block w-full rounded-md border-gray-700 shadow-sm focus:border-[#008000] focus:ring-[#008000] sm:text-sm"
+          placeholder={title}
+        />
       </div>
     );
   };
+
   return (
-    <div className="App">
-      <div class="flex flex-col  mx-[100px]">
-        <div class="text-[24px] font-rubik pb-5">
-          <b>Let’s build something great together...</b>
-        </div>
-        <div class="px-3 mx-[90px]">
-          <div class="inline-flex flex-row justify-center w-full text-left  p-1 ">
-            <Container title="Company Name*"></Container>
-            <Container title="Company Email*"></Container>
-            <Container title="Phone Number*"></Container>
-            <div class="p-1 flex-1 ">
-              <div class=" w-full p-1 font-rubik text-left">
+    <div className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+        <h2 className="text-2xl font-bold text-gray-800 mb-6">
+          Let’s build something great together...
+        </h2>
+
+        {/* Form Fields */}
+        <form className="space-y-6">
+          {/* First Row of Inputs */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Container title="Company Name*" />
+            <Container title="Company Email*" />
+            <Container title="Phone Number*" />
+            <div className="flex flex-col w-full px-2">
+              <label className="block text-sm font-medium text-gray-700">
                 Type of Projects
-              </div>
-              <select class=" border w-full p-1 bg-white text-black border-[#848484]">
+              </label>
+              <select className="mt-1 block w-full rounded-md border-gray-700 shadow-sm focus:border-[#008000] focus:ring-[#008000] sm:text-sm">
                 <option>Web</option>
                 <option>Mobile</option>
                 <option>Web & Mobile</option>
@@ -38,23 +42,30 @@ function Feedback() {
             </div>
           </div>
 
-          {/* <div class="inline-flex flex-col justify-center font-rubik text-left mx-[120px] px-12"> */}
-          <div class="font-rubik text-left p-1">How can we help you?</div>
-          <textarea
-            class="inline-flex w-full h-[100px] border bg-white text-black border-[#848484] p-1"
-            placeholder="Your Message"
-          ></textarea>
-          <div class="text-left pt-5 pb-10">
+          {/* Message Field */}
+          <div className="w-full">
+            <label className="block text-sm font-medium text-gray-700">
+              How can we help you?
+            </label>
+            <textarea
+              className="mt-1 block w-full h-28 rounded-md border-gray-700 shadow-sm focus:border-[#008000] focus:ring-[#008000] sm:text-sm"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+
+          {/* Submit Button */}
+          <div className="flex justify-center text-left ">
             <button
               type="submit"
-              class="w-1/3 rounded-3xl bg-black text-white px-8 p-3.5 "
+              className="inline-flex justify-center w-full md:w-auto rounded-full bg-black text-white px-6 py-3 text-sm font-medium shadow-sm hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
             >
               <b>Connect With Us</b>
             </button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );
 }
+
 export default Feedback;
